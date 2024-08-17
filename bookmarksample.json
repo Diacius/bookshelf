@@ -1,0 +1,13 @@
+// this JSON is invalid because of comments, it is just an example of the syntax I wish to use
+{
+	"name": "Droppings",
+	// hopefully we may be able to support different protocols :)
+	"url": "https://what-if.xkcd.com/11/",
+	"author": "xkcd",
+	// how will this work with subdomains!
+	"site": "what-if.xkcd.com",
+	// tags are alphanumeric, and should work with UTF-8
+	"tags": ["what-if", "nerdiness", "demo"],
+	// categories have IDs so that they can be renamed without disk thrashing
+	"category": "1",
+}
